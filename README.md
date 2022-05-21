@@ -18,7 +18,7 @@ A card is said to be directly accessible if it is either on the discard pile or 
 batteries. In Figure 1.f, the directly accessible cards are: the 9 of Clubs (on the discard pile), the King of
 Spades, Jack of Clubs, 3 of Diamonds, 3 of Spades, King of Clubs, 8 of Diamonds and 9 of Diamonds.
 Card Movements:
-— you can move an Ace to the empty storage area of its color
+- you can move an Ace to the empty storage area of its color
 
 ![image](https://user-images.githubusercontent.com/72779962/169643971-abf9b0d3-4806-4863-b530-2383521af362.png)
 
@@ -28,13 +28,13 @@ of the storage area of its color, then it can be stored there (i.e. if the last 
 hearts zone is 10 and the Jack of hearts is accessible, it can be placed above the 10.
 against if the last card placed on the hearts area is 8 and the Jack of hearts is accessible,
 it cannot be put away because it does not immediately follow the 8).
-— you can move the card to the top of the discard area to put it under a visible card
+- you can move the card to the top of the discard area to put it under a visible card
 numbered stacks, if it is of directly lower value and of alternating color (i.e. one can
 place a 7 of spades under an 8 of hearts or an 8 of diamonds)
-— you can move a whole series of cards from one stack to another, the lowest card in front
+- you can move a whole series of cards from one stack to another, the lowest card in front
 be directly inferior and of alternating color to the destination card. In other words, we can
 move a card that is not directly accessible from a pile if you also move all the cards below it.
-— finally, if one of the 7 stacks is empty, you can only place a King on it
+- finally, if one of the 7 stacks is empty, you can only place a King on it
 
 
 From figure 1.a, we can for example store the Ace of hearts which is directly accessible on
@@ -55,19 +55,19 @@ The program provided as an example can be launched simply with the command:
 
 
 Once the program is launched, the game begins. The possible commands are:
-— P to draw a card;
-— Ri to put away the card at i. The latter can be either the letter D to indicate that we
+- P to draw a card;
+- Ri to put away the card at i. The latter can be either the letter D to indicate that we
 wants to put the card in the discard pile back on its final location, i.e. an integer between 1 and
 7 to indicate that you want to put away the leftmost card of the pile indicated
-— Dij to move as many cards as possible between i and j. Here i is either D or an integer from 1 to 7 and j is
+- Dij to move as many cards as possible between i and j. Here i is either D or an integer from 1 to 7 and j is
 an integer from 1 to 7.
-— Q to quit.
+- Q to quit.
 Thus, to obtain figures 1.a 1.f, one successively enters the commands:
-— R5 (place the Ace in stack 5)
-— D24 (move the 3 from pile 2 under the 4 from pile 4)
-— D43 (move the 3 and 4 from pile 4 under the 5 from pile 3)
-— D57 (move the 9 from pile 5 under the 10 from pile 7)
-— P (we draw)
+- R5 (place the Ace in stack 5)
+- D24 (move the 3 from pile 2 under the 4 from pile 4)
+- D43 (move the 3 and 4 from pile 4 under the 5 from pile 3)
+- D57 (move the 9 from pile 5 under the 10 from pile 7)
+- P (we draw)
 
 
 
