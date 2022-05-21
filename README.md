@@ -20,9 +20,10 @@ Spades, Jack of Clubs, 3 of Diamonds, 3 of Spades, King of Clubs, 8 of Diamonds 
 Card Movements:
 - you can move an Ace to the empty storage area of its color
 
-<p align="center">
+
   ![image](https://user-images.githubusercontent.com/72779962/169643971-abf9b0d3-4806-4863-b530-2383521af362.png) 
-</p>
+  
+<img align="center" width="100" height="100" src="[http://www.fillmurray.com/100/100](https://user-images.githubusercontent.com/72779962/169643971-abf9b0d3-4806-4863-b530-2383521af362.png)">
 
 
 
