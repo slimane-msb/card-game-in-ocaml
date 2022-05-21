@@ -1,5 +1,5 @@
-# jeu-de-carte-en-Ocaml
-jeu de carte en ocaml
+# card-game-in-ocaml
+card game in ocaml
 
 
 # purpose 
